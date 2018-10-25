@@ -2,7 +2,7 @@
   function floatLabel(inputType) {
     $(inputType).each(function () {
       var $this = $(this);
-      // on focus add cladd active to label
+      // on focus add class active to label
       $this.focus(function () {
         $this.next().addClass("active");
       });
