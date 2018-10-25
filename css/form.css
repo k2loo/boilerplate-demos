@@ -1,0 +1,16 @@
+:root{
+  font-size: 16px;
+  --cherry: rgba(228,0,43,1);
+  --plum: rgba(63,21,79,1);
+}
+
+body, html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  background-image: url("https://source.unsplash.com/featured/1920x1080");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
