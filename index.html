@@ -21,7 +21,7 @@
   <!-- CHANGE OPEN GRAPH PROTOCOL METADATA -->
   <meta property="og:title" content="The Title | change this" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.theUrlOfThisPage" />
+  <meta property="og:url" content="https://www.theUrlOfThisPage.com" />
   <meta property="og:image" content="https://website.com/img/filename.jpg" />
   <meta property="og:image:alt" content="description of the image for accessibility" />
   <!-- CHANGE/REMOVE GOOGLE FONTS EXTERNAL LINK -->
@@ -32,16 +32,17 @@
   <link rel="preload" as="font" type="font/woff2" href="./fonts/work-sans-v3-latin-regular.woff" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="./fonts/work-sans-v3-latin-regular.woff2" crossorigin>
   <!-- BASIC CSS RESET -->
-  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="/css/normalize.min.css">
   <!-- MINIFY CSS AND CHANGE LINK -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/index.css">
   <!-- MINIFY JS AND CHANGE LINK -->
-  <script src="js/scripts.js"></script>
+  <script src="/js/scripts.js"></script>
   <!-- FEATHER ICONS MIN.JS LINK -->
   <script src="/js/feather.min.js"></script>
 </head>
 
 <body>
+  <!-- start nav checkbox boilerplate -->
   <header>
     <h2 class="logo">Logo</h2>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -57,12 +58,24 @@
       <span></span>
     </label>
   </header>
+  <!-- end nav checkbox boilerplate -->
+  <div class="clearfix"></div>
+  <!-- start demo nav -->
+  <div class="links">
+    <ul>
+      <li><a href="/html/css-grid.html">css grid demo</a></li>
+      <li><a href="/html/flexbox.html">flexbox</a></li>
+      <!-- <li><a href="/html/netlify-form.html">netlify form</a></li> -->
+    </ul>
+  </div>
+  <!-- end demo nav -->
 
-
+  <!-- start html boilerplate -->
   <div class="clearfix"></div>
   <div class="grid">
     <div id="hero-area">
-      <h1 class="text-center">HTML Boilerplate</h1>
+      <h1 class="text-center">HTML Boilerplate Demo</h1>
+      <h2 class="text-center">(basically a vehicle for displaying the css)</h2>
     </div>
 
     <div id="typography">
@@ -83,17 +96,17 @@
     <div id="colors" class="colors text-center">
       <p class="text-center">Colors</p>
       <div class="bg-primary text-secondary">
-        .bgprimary .textsecondary
+        .bg-primary .text-secondary
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quisquam.</p>
       </div>
       <div class="bg-secondary text-primary">
-        .bgsecondary .textprimary
+        .bg-secondary .text-primary
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quisquam.</p>
       </div>
-      <div class="bg-dark text-light">.bgdark .textlight
+      <div class="bg-dark text-light">.bg-dark .text-light
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quisquam.</p>
       </div>
-      <div class="bg-light text-dark" style="border: 1px dotted grey">.bglight .textdark
+      <div class="bg-light text-dark" style="border: 1px dotted grey">.bg-light .text-dark
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quisquam.</p>
       </div>
     </div>
