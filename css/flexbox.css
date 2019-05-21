@@ -1,0 +1,68 @@
+:root {
+  font-size: 10px;
+  --clr-primary: rgba(63, 21, 79, 1);
+	--clr-secondary: rgba(228, 0, 43, 1);
+  --clr-light: rgba(248, 248, 248,1); /* #F8F8F8 */
+  --clr-light-80: rgba(248, 248, 248,0.8);
+  --clr-dark: rgba(80, 80, 80,1);
+}
+
+body, html {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+}
+a {
+  color:var(--clr-primary);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--clr-secondary);
+}
+
+.wrapper{
+  width: 70rem;
+  height: 25rem;
+  margin: 2rem auto;
+  background-color: var(--clr-primary);
+  border-radius: 1rem;
+
+}
+.flex{
+   display: flex;
+}
+.flex>div{
+  /* display: flex; */
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--clr-light-80);
+}
+.align-self--start{
+  align-self: start;
+}
+.align-self--center{
+  align-self: center;
+}
+.align-self--end{
+  align-self: end;
+}
+
+.align-items--center{
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+
+
+
+.column{
+  flex-direction: column;
+}
+.align-content{
+  align-content: center;
+  justify-content: center;
+}

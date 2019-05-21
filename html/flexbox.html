@@ -5,19 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>flexbox demo</title>
   <link rel="stylesheet" href="../css/normalize.min.css">
-  <link rel="stylesheet" href="../css/css-grid.css">
+  <link rel="stylesheet" href="../css/flexbox.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap rel=" stylesheet">
 </head>
 
 <body>
-  <ul>
-    <li><a href="../index.html">html boilerplate</a></li>
-    <li><a href="../html/css-grid.html">css grid</a></li>
-    <li></li>
-  </ul>
+  <div class="content">
+    <ul>
+      <li><a href="../index.html">html boilerplate</a></li>
+      <li><a href="../html/css-grid.html">css grid</a></li>
+      <li></li>
+    </ul>
+    <div>.flex>div{align-self:_____;}</div>
+    <div class="wrapper flex">
+      <div class="align-self--start">start</div>
+      <div class="align-self--center">center</div>
+      <div class="align-self--end">end</div>
+    </div>
+    <hr>
+    <div>.flex{align-items: center;}</div>
+    <div class="wrapper flex align-items--center">
+      <div class="">center</div>
+      <div class="">center</div>
+      <div class="">center</div>
+    </div>
+    <hr>
 
+
+
+
+    <div>flex-direction: column;</div>
+    <div>.flex>div{align-self:_____;}</div>
+    <div class="wrapper flex column">
+      <div class="align-self--start">start</div>
+      <div class="align-self--center">center</div>
+      <div class="align-self--end">end</div>
+    </div>
+  </div>
 
 
 
