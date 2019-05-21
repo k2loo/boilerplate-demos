@@ -1,13 +1,10 @@
 :root {
   font-size: 10px;
-  --color-primary: rgba(63, 21, 79, 1);
-	--color-secondary: rgba(228, 0, 43, 1);
+  --clr-primary: rgba(63, 21, 79, 1);
+	--clr-secondary: rgba(228, 0, 43, 1);
   --clr-light: rgba(248, 248, 248,1); /* #F8F8F8 */
   --clr-light-80: rgba(248, 248, 248,0.8);
   --clr-dark: rgba(80, 80, 80,1);
-  --clr-dark-80: rgba(80, 80, 80,0.8);
-  --clr-dark-50: rgba(80, 80, 80,0.5);
-  --clr-dark-30: rgba(80, 80, 80,0.3);
 }
 
 body, html {
@@ -22,20 +19,16 @@ body, html {
 .wrapper{
   max-width: 120rem;
   margin: 2rem auto;
-  background-color: var(--color-primary);
-    border-radius: 1rem;
+  background-color: var(--clr-primary);
+  border-radius: 1rem;
 
 }
 .demo{
   padding: 1rem;
-  /* border: 1px solid var(--clr-dark); */
-  
   grid-gap: 0.5rem;
 }
 .demo>div{
   padding: 2rem 0;
-  /* margin: 0.5rem; */
-  /* border: 1px solid var(--clr-dark); */
   border-radius: 0.5rem;
   height: 10rem;
   display: flex;
@@ -44,11 +37,11 @@ body, html {
   background-color: var(--clr-light-80);
 }
 a {
-  color:var(--color-primary);
+  color:var(--clr-primary);
   text-decoration: none;
 }
 a:hover{
-  color: var(--color-secondary);
+  color: var(--clr-secondary);
 }
 
 
