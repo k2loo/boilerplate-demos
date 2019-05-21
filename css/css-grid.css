@@ -8,7 +8,7 @@
 }
 
 body, html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
@@ -28,6 +28,7 @@ body, html {
   grid-gap: 0.5rem;
 }
 .demo>div{
+  font-family: 'fira mono', monospace;
   padding: 2rem 0;
   border-radius: 0.5rem;
   height: 10rem;

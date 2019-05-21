@@ -1,10 +1,10 @@
 :root{
   font-size: 10px;
-  --color-primary: rgba(63, 21, 79, 1);
-	--color-secondary: rgba(228, 0, 43, 1);
-  --color-light: rgba(248, 248, 248,1);
-  --color-dark: rgba(80, 80, 80,1);
-	--color-dark-80: rgba(80, 80, 80,0.8);
+  --clr-primary: rgba(63, 21, 79, 1);
+	--clr-secondary: rgba(228, 0, 43, 1);
+  --clr-light: rgba(248, 248, 248,1);
+  --clr-dark: rgba(80, 80, 80,1);
+	--clr-dark-80: rgba(80, 80, 80,0.8);
 }
 @font-face {
   font-family: 'Work Sans';
@@ -21,8 +21,8 @@ body,html{
   line-height: 3.4rem;
   font-weight: 400;
   line-height: 3.4rem;
-  color: var(--color-dark);
-  background-color: var(--color-light);
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
 }
 h1{
   font-family: 'Roboto Slab', serif;
@@ -40,24 +40,24 @@ h3{
   font-size: 3rem;
 }
 a {
-  color:var(--color-primary);
+  color:var(--clr-primary);
   text-decoration: none;
 }
 a:hover{
-  color: var(--color-secondary);
+  color: var(--clr-secondary);
 }
 /* start utility classes */
 .text-primary{
-  color:var(--color-primary);
+  color:var(--clr-primary);
 }
 .text-secondary{
-  color:var(--color-secondary);
+  color:var(--clr-secondary);
 }
 .text-light{
-  color:var(--color-light);
+  color:var(--clr-light);
 }
 .text-dark{
-	color:var(--color-dark);
+	color:var(--clr-dark);
 }
 .text-smallcaps{
   font-variant: small-caps;
@@ -66,16 +66,16 @@ a:hover{
   text-align: center;
 }
 .bg-light{
-  background-color: var(--color-light);
+  background-color: var(--clr-light);
 }
 .bg-dark{
-	background-color: var(--color-dark);
+	background-color: var(--clr-dark);
 }
 .bg-primary{
-	background-color: var(--color-primary);
+	background-color: var(--clr-primary);
 }
 .bg-secondary{
-	background-color: var(--color-secondary);
+	background-color: var(--clr-secondary);
 }
 .fullwidth{
   width: 100vw;
@@ -136,8 +136,8 @@ a:hover{
 
 /* nav start */
 header{
-	background: var(--color-dark-80);
-	color: var(--color-light);
+	background: var(--clr-dark-80);
+	color: var(--clr-light);
 	text-align: center;
 	position: fixed;
 	z-indexL 999;
@@ -146,7 +146,7 @@ header{
 }
 
 nav{
-	background: var(--color-dark-80);
+	background: var(--clr-dark-80);
 	position: absolute;
 	text-align: left;
 	top: 100%;
@@ -167,7 +167,7 @@ nav li{
 	
 }
 nav a{
-	color: var(--color-light);
+	color: var(--clr-light);
 	text-decoration: none;
 	font-size: 1.6rem;
 	text-transform: uppercase;

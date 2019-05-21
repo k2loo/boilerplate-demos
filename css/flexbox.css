@@ -9,7 +9,7 @@
 }
 
 body, html {
-  font-family: 'fira mono', monospace;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.6rem;
@@ -24,10 +24,11 @@ a:hover{
   color: var(--clr-secondary);
 }
 .section{
-  /* border-bottom: 1px solid var(--clr-dark); */
   border: 1px solid var(--dark);
 }
-
+h1{
+  font-weight: 500;
+}
 pre{
   font-family: fira mono, monospace;
 }
@@ -35,12 +36,21 @@ pre{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+.content-grid>div{
+  border: 1px solid var(--clr-dark-30);
+  border-radius: rem;
+}
 .col-span-2{
   grid-column: span 2;
 }
-.content-grid>div{
-  border: 1px solid var(--clr-dark-30);
-  border-radius: 1rem;
+.col-span-5{
+  grid-column: span 5;
+}
+.section-group-title{
+  background-color: var(--clr-dark-30);
+  color: var(--clr-dark);
+  padding-left: 2rem;
+  border: 4rem 4rem 0 0 solid black;
 }
 .demo-area{
   width: 25rem;
@@ -65,26 +75,19 @@ pre{
    display: flex;
 }
 .flex>div{
-  /* display: flex; */
   margin: 0.5rem;
   padding: 1.5rem;
   border-radius: 0.75rem;
   background-color: var(--clr-light-80);
 }
-
 .center{
   align-items: center;
   justify-content: center;
 }
-.nav{
-  display: flex;
+.bg-light{
+  background-color: var(--clr-light-80);
 }
-.nav>div{
-  margin:0 2rem 0 2rem;
-  border: 1px solid white;
-  border-radius: 0.5rem;
-}
-
+/* align-self */
 .align-self--start{
   align-self: start;
 }
@@ -94,10 +97,10 @@ pre{
 .align-self--end{
   align-self: end;
 }
+/* align-items */
 .align-items--flex-start{
   align-items: flex-start;
 }
-
 .align-items--center{
   align-items: center;
 }
@@ -110,6 +113,7 @@ pre{
 .align-items--baseline{
   align-items: baseline;
 }
+/* align-content */
 .align-content--flex-start{
   flex-wrap: wrap;
   align-content: flex-start;
@@ -138,7 +142,7 @@ pre{
   flex-wrap: wrap;
   align-content: stretch;
 }
-
+/* justify-content */
 .justify-content--flex-start{
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -160,11 +164,4 @@ pre{
 }
 .justify-content--stretch{
   justify-content: stretch;
-}
-.push{
-  margin-left: auto;
-}
-
-.flex-column{
-  /* flex-direction: column; */
 }
