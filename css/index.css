@@ -46,6 +46,7 @@ a {
 a:hover{
   color: var(--clr-secondary);
 }
+
 /* start utility classes */
 .text-primary{
   color:var(--clr-primary);
@@ -100,6 +101,7 @@ a:hover{
   clear: both;
 }
 /* end utility classes */
+
 .grid{
 	margin-top:20rem;
 	display:grid;
@@ -120,7 +122,6 @@ a:hover{
 }
 #colors{
 	grid-area: colors;
-	/* grid-column: span 1; */
 }
 #colors>div{
 	height:15rem;
