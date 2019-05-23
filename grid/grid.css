@@ -26,13 +26,11 @@ h1{
   padding: 2rem;
   border: 4rem 4rem 0 0 solid black;
 }
-
 .wrapper{
   max-width: 120rem;
   margin: 4rem auto;
   background-color: var(--clr-primary);
   border-radius: 1rem;
-
 }
 .demo{
   padding: 1rem;
@@ -53,6 +51,11 @@ a {
 }
 a:hover{
   color: var(--clr-secondary);
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
 }
 
 /* start 6 column microframework */

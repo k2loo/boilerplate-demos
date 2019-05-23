@@ -46,7 +46,11 @@ a {
 a:hover{
   color: var(--clr-secondary);
 }
-
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
 /* start utility classes */
 .text-primary{
   color:var(--clr-primary);

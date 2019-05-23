@@ -23,6 +23,11 @@ a {
 a:hover{
   color: var(--clr-secondary);
 }
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
 .section{
   border: 1px solid var(--dark);
 }
