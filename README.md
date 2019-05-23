@@ -1,2 +1,3 @@
-# netlifytest
-testing out netlify
+# boilerplate html/css layout
+
+https://boilerplate-demos.netlify.com
